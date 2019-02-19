@@ -53,14 +53,22 @@ li a {
       font-size: 30px;
 }
 
-	html {
-		background:url(https://i.imgur.com/H6nodOO.jpg) no-repeat center center fixed;
-		 -webkit-background-size: cover;
+
+
+#particles-js {
+        position:relative;
+        width:100%;
+        height:400px;
+        background-color:#fff;
+        background-repeat: no-repeat;
+        background-position: top left; 
+        background-atachment: fixed;
+  -webkit-background-size: cover;
    		 -moz-background-size: cover;
     		-o-background-size: cover;
     		background-size: cover;
 		background-color:#ebfaeb
-	}
+      }
 
 	#container {
 		width:75%;
@@ -129,5 +137,7 @@ li a {
     right:10px;
       
 }
+
+    
     
 </style>
