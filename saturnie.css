@@ -90,25 +90,25 @@ li a {
 	.planets {
 		float: left;
 		width: 255px;
-		margin:10px 30px 20px 30px;
+		margin:10px 30px 50px 30px;
 		justify-content: space-between;
 	}
 
 	.planetmargin {
-		float: left;
+    display: block;
+    float: left;
 		width: 255px;
-		margin:50px 30px 20px 30px;
+		margin: 50px 10px 20px 20px;
 		justify-content: space-between;
 	}
 
 	#sun {
 		display:block;
-		float: center;
 		width: 555px;
 		margin-left: auto;
   		margin-right: auto;
-		margin-top:350px;
-		margin-bottom: 350px;
+		margin-top:450px;
+		margin-bottom: 100px;
 	}
 	#downbar {
 		width: 100%;
