@@ -70,6 +70,7 @@ li a {
     overflow-x: hidden;
     margin-left: 12.5%;
     margin-right:12.5%;
+    text-align: center;
 	}
   
 	#upbar {
@@ -95,10 +96,9 @@ li a {
 	}
 
 	.planetmargin {
-    display: block;
-    float: left;
+    display: inline-block;
 		width: 255px;
-		margin: 50px 10px 20px 20px;
+		margin: 50px 0px 0px 20px;
 		justify-content: space-between;
 	}
 
@@ -107,7 +107,7 @@ li a {
 		width: 555px;
 		margin-left: auto;
   		margin-right: auto;
-		margin-top:450px;
+		margin-top:50px;
 		margin-bottom: 100px;
 	}
 	#downbar {
