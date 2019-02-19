@@ -1,3 +1,14 @@
+  <meta charset="utf-8">
+    <title>Test File</title>
+    
+	<style type="text/css">
+			::-webkit-scrollbar-button{ display: block; height: 13px; border-radius: 0px; background-color: #000000; } 
+			::-webkit-scrollbar-button:hover{ background-color: #AAA; } 
+			::-webkit-scrollbar-thumb{ background-color: #ba82ff; border-radius: 50px; } 
+			::-webkit-scrollbar-thumb:hover{ background-color: #5c00ce; border-radius: 0px; } 
+			::-webkit-scrollbar-track{ background-color: #32006f; } 
+			::-webkit-scrollbar-track:hover{ background-color: #3a0082; } 
+			::-webkit-scrollbar{ width: 5px; }
 
     
     	body {
@@ -14,28 +25,28 @@
         padding-bottom: 40px;
 		  }
     
-      ul {
+      #upbar ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         }
 
-      li {
+      #upbar li {
         display: inline-block;
-        border-right: 1px solid #bbb;
       }
     
-      li:last-child {
-        border-right: none;
-      }
+
 
 li a {
   width:150px;
   color: white;
   text-align: center;
-  font-size: 30px;
    padding: 14px 16px;
   text-decoration: none;
+}
+
+    #upbar li {
+      font-size: 30px;
 }
 
 	html {
@@ -114,3 +125,4 @@ li a {
     right:10px;
       
     }
+</style>
