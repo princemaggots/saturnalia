@@ -35,13 +35,16 @@
         }
 
       li {
-      display: inline-block;
-      border-right: 1px solid #bbb;
+        display: inline-block;
+        border-right: 1px solid #bbb;
+      }
+    
+      li:last-child {
+        border-right: none;
       }
 
 li a {
   width:150px;
-  background-
   color: white;
   text-align: center;
   font-size: 50px;
@@ -119,6 +122,12 @@ li a {
 		background-color: #290c0c;
 		margin-bottom:-20px;
 	}
+    #downbar p {
+        position:absolute;
+    bottom:0;
+    right:10px;
+      
+    }
 
  </head>
   
@@ -129,13 +138,14 @@ li a {
 			<div id="upbar">
 
 				<h1>My Project</h1>
+        
         <nav>
-  <ul>
-    <li><a href="#">Navigation</a></li>
-    <li><a href="#">Menu</a></li>
-    <li><a href="#">Links</a></li>
-  </ul>
-</nav>
+           <ul>
+              <li><a href="#">Navigation</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Links</a></li>
+          </ul>
+        </nav>
 
 			</div>
 
@@ -145,6 +155,9 @@ li a {
 					<img class="planetmargin" src="https://media.giphy.com/media/qj8udSVLazQ1a/giphy.gif"/>  
 					<img id="sun" src="https://cdn.glitch.com/a4289863-5103-46d2-863b-58f3fd785631%2FIMG_2290.GIF?1550169095529"/>
 			<div id="downbar">
+        <p>
+          a project by mysti mazoch
+        </p>
 			</div>
 		</div>
   	</body>
