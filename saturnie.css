@@ -18,11 +18,12 @@
 		  }
 
 		  h1 {
-			    font-size: 70px;
+			    font-size: 55px;
 			    color: #9cbbc9;
 			    letter-spacing: 2px;
-        padding-bottom: 30px;
-        padding-top: 15px;
+        padding-bottom: 0px;
+        line-height: 75px;
+        padding-top:15px;
 		  }
     
       p {
@@ -56,24 +57,27 @@
         border-right: none;
       }
 
- #s-m-t-tooltip {
- 	font-family: 'Arial', sans-serif;
- 	font-size: 18px;
- 	/*tooltip font size*/
- 	line-height: 40px;
- 	position: absolute;
- 	z-index: 9999;
- 	min-width: 75px;
- 	max-width: 180px;
- 	height: auto;
- 	margin: 10px;
- 	margin-bottom: 5px;
- 	padding: 5px;
- 	text-align: center;
- 	color: #fff;
- 	/*tooltip text color*/
- 	background-color: #000;
+#s-m-t-tooltip {
+	font-family: 'Oswald', sans-serif;
+	/*tooltip font*/
+	font-size: 18px;
+	/*tooltip font size*/
+	line-height: 40px;
+	position: absolute;
+	z-index: 9999;
+	min-width: 75px;
+	max-width: 280px;
+	height: auto;
+	margin: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	/*tooltip text color*/
+	background-color: #000;
+	/*tooltip background color*/
 }
+
 
 li a {
   width:150px;
