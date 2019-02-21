@@ -34,6 +34,12 @@
             float: right;
           margin: 15px 10px 0px 10px;
         }
+
+      .box {
+        height: 1px;
+        color: #f2f2f2;
+        background-color:#f2f2f2;
+      }
     
       #upbar ul {
         list-style-type: none;
