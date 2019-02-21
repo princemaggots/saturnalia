@@ -9,6 +9,13 @@
 			::-webkit-scrollbar-track:hover{ background-color: #3a0082; } 
 			::-webkit-scrollbar{ width: 5px; }
 
+      html {
+ 	      background: url(https://orig00.deviantart.net/e9d3/f/2016/339/5/9/animated_star_background_stock_by_firstdarkangel2001-daqohse.gif) no-repeat center                     center fixed;
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+}
     
     	body {
       		font-family: Arial, sans-serif;
@@ -79,7 +86,7 @@
 }
 
 
-li a {
+li a{
   width:150px;
   color: white;
   text-align: center;
@@ -91,14 +98,6 @@ li a {
       font-size: 30px;
 }
 
-html {
- 	background: url(https://orig00.deviantart.net/e9d3/f/2016/339/5/9/animated_star_background_stock_by_firstdarkangel2001-daqohse.gif) no-repeat center center fixed;
- 	/** replace with your own background url*/
- 	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
-}
 
 	#container {
 		width: 1000px;
