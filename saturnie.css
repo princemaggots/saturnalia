@@ -27,7 +27,7 @@
     
       p {
           text-align: left;
-        margin: 15px 100px 10px 10px;
+        margin: 15px 100px 10px 50px;
         }
       
       .right {
@@ -102,8 +102,7 @@ html {
 }
 
 	#container {
-		width:75%;
-    min-width:300px;
+		width: 1000px;
 		background-color:#040000;
 		position:relative;
     overflow-x: hidden;
