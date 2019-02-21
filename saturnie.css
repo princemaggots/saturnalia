@@ -11,11 +11,11 @@
 
       html {
  	      background: url(https://orig00.deviantart.net/e9d3/f/2016/339/5/9/animated_star_background_stock_by_firstdarkangel2001-daqohse.gif) no-repeat center                     center fixed;
- 	-webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
-}
+ 	      -webkit-background-size: cover;
+ 	      -moz-background-size: cover;
+ 	      -o-background-size: cover;
+ 	      background-size: cover;
+        }
     
     	body {
       		font-family: Arial, sans-serif;
@@ -24,79 +24,79 @@
       		line-height:110%;
 		  }
 
+      #s-m-t-tooltip {
+	        font-family: 'Oswald', sans-serif;
+	        /*tooltip font*/
+	        font-size: 18px;
+	        /*tooltip font size*/
+	        line-height: 40px;
+	        position: absolute;
+	        z-index: 9999;
+	        min-width: 75px;
+	        max-width: 280px;
+	        height: auto;
+	        margin: 10px;
+	        margin-bottom: 5px;
+	        padding: 5px;
+	        text-align: center;
+	        color: #fff;
+	        /*tooltip text color*/
+	        background-color: #000;
+	        /*tooltip background color*/
+      }
+
 		  h1 {
 			    font-size: 55px;
 			    color: #9cbbc9;
 			    letter-spacing: 2px;
-        padding-bottom: 0px;
-        line-height: 75px;
-        padding-top:15px;
+          padding-bottom: 0px;
+          line-height: 75px;
+          padding-top:15px;
 		  }
     
       p {
           text-align: left;
-        margin: 30px 10px 50px 10px;
-        }
+          margin: 30px 10px 50px 10px;
+      }
+
+      li a{
+          width:150px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+           #upbar ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+
+          #upbar li {
+              display: inline-block;
+              border-right: 1px solid #bbb;
+            }
+    
+          #upbar li:last-child {
+              border-right: none;
+            }
+
+          #upbar li {
+              font-size: 30px;
+            }
       
-      .right {
+          .right {
             float: right;
           margin: 0px 10px 15px 10px;
-        }
+            }
 
       .box {
         height: 1px;
         color: #f2f2f2;
         background-color:#f2f2f2;
-      }
+          }
     
-      #upbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        }
-
-      #upbar li {
-        display: inline-block;
-         border-right: 1px solid #bbb;
-      }
-    
-      #upbar li:last-child {
-        border-right: none;
-      }
-
-#s-m-t-tooltip {
-	font-family: 'Oswald', sans-serif;
-	/*tooltip font*/
-	font-size: 18px;
-	/*tooltip font size*/
-	line-height: 40px;
-	position: absolute;
-	z-index: 9999;
-	min-width: 75px;
-	max-width: 280px;
-	height: auto;
-	margin: 10px;
-	margin-bottom: 5px;
-	padding: 5px;
-	text-align: center;
-	color: #fff;
-	/*tooltip text color*/
-	background-color: #000;
-	/*tooltip background color*/
-}
-
-
-li a{
-  width:150px;
-  color: white;
-  text-align: center;
-   padding: 14px 16px;
-  text-decoration: none;
-}
-
-    #upbar li {
-      font-size: 30px;
-}
 
 
 	#container {
