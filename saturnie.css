@@ -27,7 +27,12 @@
     
       p {
           text-align: left;
-        margin
+        margin: 15px 100px 10px 10px;
+        }
+      
+      .right {
+            float: right;
+          margin: 15px 10px 0px 10px;
         }
     
       #upbar ul {
