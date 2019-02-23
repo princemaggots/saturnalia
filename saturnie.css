@@ -100,8 +100,8 @@
 		    width: 1000px;
 		    background-color:#040000;
 		    position:relative;
-        margin-left: 12.5%;
-        margin-right:12.5%;
+        margin-left: auto;
+        margin-right:auto;
         text-align: center;
 	  }
   
