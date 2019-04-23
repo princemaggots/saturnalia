@@ -27,7 +27,7 @@
 		  h1 {
           font-family: 'Ropa Sans', sans-serif;			    
           font-size: 55px;
-			    color: #BE7850;
+			    color: #D08357;
 			    letter-spacing: 2px;
           padding-bottom: 0px;
           line-height: 75px;
@@ -56,14 +56,14 @@
       li a {
           font-family: 'Ropa Sans', sans-serif;            
           width:150px;
-          color: #BE7850;
+          color: #D08357;
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
       }
 
     li a:hover {
-      color: #;
+      color: #8f4521;
        cursor:help;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
