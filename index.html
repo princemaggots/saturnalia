@@ -7,8 +7,18 @@
     <link rel="shortcut icon" href="https://cdn.glitch.com/a4289863-5103-46d2-863b-58f3fd785631%2Fsun_happy_1-512.png?1550598181254" type="image/x-icon">
 <link rel="icon" href="https://cdn.glitch.com/a4289863-5103-46d2-863b-58f3fd785631%2Fsun_happy_1-512.png?1550598181254" type="image/x-icon">
       <style>@import url('https://fonts.googleapis.com/css?family=Ropa+Sans|Source+Sans+Pro');</style>
-
     
+    <link href="style-my-tooltips.css" rel="stylesheet" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="jquery.style-my-tooltips.js"></script>
+
+    <script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips();
+        });
+    })(jQuery);
+</script>
 
     
  
