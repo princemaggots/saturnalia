@@ -20,14 +20,14 @@
     	body {
       		font-family: 'Source Sans Pro', sans-serif;
 			    font-size: 13pt;
-			    color: #ffff;
+			    color: #F0EDED;
       		line-height:110%;
 		  }
 
 		  h1 {
           font-family: 'Ropa Sans', sans-serif;			    
           font-size: 55px;
-			    color: #9cbbc9;
+			    color: #F0EDED;
 			    letter-spacing: 2px;
           padding-bottom: 0px;
           line-height: 75px;
@@ -54,13 +54,22 @@
       }
 
       li a {
-
-          font-family: 'Ropa Sans', sans-serif;          width:150px;
-          color: white;
+          font-family: 'Ropa Sans', sans-serif;            
+          width:150px;
+          color: #F0EDED;
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
       }
+
+    li a:hover {
+      color: #8C9294;
+       cursor:help;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;}
+    }
 
            #upbar ul {
               list-style-type: none;
