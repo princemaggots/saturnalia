@@ -1,6 +1,6 @@
 
     
-	<style type="text/css">
+	<style>
 			::-webkit-scrollbar-button{ display: block; height: 13px; border-radius: 0px; background-color: #000000; } 
 			::-webkit-scrollbar-button:hover{ background-color: #AAA; } 
 			::-webkit-scrollbar-thumb{ background-color: #ba82ff; border-radius: 50px; } 
@@ -18,15 +18,15 @@
         }
     
     	body {
-      		font-family: Arial, sans-serif;
+      		font-family: 'Ropa Sans', sans-serif;
 			    font-size: 13pt;
 			    color: #ffff;
       		line-height:110%;
 		  }
 
       #s-m-t-tooltip {
-	        font-family: 'Oswald', sans-serif;
-	        /*tooltip font*/
+	        font-family: ''opa Sans, sans-serif;
+o        /*tooltip font*/
 	        font-size: 18px;
 	        /*tooltip font size*/
 	        line-height: 40px;
@@ -183,4 +183,4 @@
 
     
       
-    </style>
+    </style>R
